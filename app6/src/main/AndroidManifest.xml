@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app6">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+            configChanges 속성에서 방향 전환 속성을 지정 할 수 있다
+            이럴 때 onConfigurationChanged() 메소드가 호출 된다.
+            여기에서 내용들을 처리하면 된다.
+        -->
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation|screenSize|layoutDirection">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
