@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        클릭시 색 변경 되는 item
+        pressed : 눌렀을 때
+        android:state_pressed="true"
+        focused : 포커스가 갔을 때
+        android:state_focused="true"
+        android:state_window_focused="true"
+    -->
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/red">
+
+    </item>
+
+    <item
+        android:drawable="@drawable/blue">
+    </item>
+
+</selector>
