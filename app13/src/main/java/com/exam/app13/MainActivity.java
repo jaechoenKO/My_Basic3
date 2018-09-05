@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnClicked(View view) {
 
-        // 애니메이션 리스너 등록
+        // 애니메이션 리스너 등록.
         testAni.setAnimationListener(new TestAnimaionListener());
 
         // 애니메이션 시작, 텍스트뷰에 애니메이션 적용
