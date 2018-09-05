@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    애니메이션 xml
+-->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        translate : 위치 이동.
+        fromXDelta : 가로 시작 위치. 0:왼쪽, 100:오른쪽
+        toXDelta : 가로 도착 위치. 0:왼쪽, 100:오른쪽
+        duration : 지속시간
+        repeatCount : 반복 횟 수
+
+    -->
+    <translate
+        android:fromXDelta="100%p"
+        android:toXDelta="0%p"
+        android:duration="3000"
+        android:repeatCount="2" />
+
+    <!--
+        alpha : 색상
+    -->
+    <alpha
+        android:fromAlpha="0.5"
+        android:toAlpha="1"
+        android:duration="3000"
+        android:repeatCount="2" />
+
+</set>
